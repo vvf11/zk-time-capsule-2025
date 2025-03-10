@@ -1,0 +1,78 @@
+body {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d0b2d 100%);
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 0, 122, 0.7);
+    width: 400px;
+}
+
+h1 {
+    color: #ff007a;
+    text-align: center;
+    text-shadow: 0 0 10px #ff007a, 0 0 20px #ff007a;
+    margin-bottom: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #ff66b2;
+    text-shadow: 0 0 5px #ff66b2;
+}
+
+input[type="date"],
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 2px solid #ff007a;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    box-shadow: 0 0 10px rgba(255, 0, 122, 0.5);
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    width: 100%;
+    padding: 0.75rem;
+    background: linear-gradient(90deg, #ff007a, #ff66b2);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(255, 0, 122, 0.7);
+    transition: all 0.3s;
+}
+
+button:hover {
+    box-shadow: 0 0 25px rgba(255, 0, 122, 1);
+    transform: scale(1.05);
+}
+
+.success {
+    margin-top: 1rem;
+    color: #ff66b2;
+    text-align: center;
+    text-shadow: 0 0 5px #ff66b2;
+}

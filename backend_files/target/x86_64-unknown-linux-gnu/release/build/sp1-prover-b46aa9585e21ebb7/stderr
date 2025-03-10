@@ -1,0 +1,4 @@
+Downloading https://sp1-circuits.s3.us-east-2.amazonaws.com/vk-map-v4.0.0-rc.3
+/workspaces/zk-time-capsule-2025/backend_files/target/x86_64-unknown-linux-gnu/release/build/sp1-prover-b46aa9585e21ebb7/out/vk_map.bin: (verification: Ok):
+  1: https://sp1-circuits.s3.us-east-2.amazonaws.com/vk-map-v4.0.0-rc.3 with status 200
+

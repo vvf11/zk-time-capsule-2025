@@ -1,0 +1,1 @@
+{"rustc":8277423686421874925,"features":"[]","declared_features":"[\"serde\"]","target":12164945070175213125,"profile":17573735640460667162,"path":1703418257019393945,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"release/.fingerprint/web-time-4fcb94ddd557c28e/dep-lib-web_time","checksum":false}}],"rustflags":[],"config":2069994364910194474,"compile_kind":0}
